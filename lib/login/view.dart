@@ -82,7 +82,7 @@ class LoginView extends StatelessWidget {
                           return  ElevatedButton(
                               style: ButtonStyle(backgroundColor:MaterialStateProperty.all(Colors.black) ),
                               onPressed:cubit.login,
-                              child: Text("LOGIN",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)));
+                              child: Text("LOGIN",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 21)));
                         }
 
 
@@ -96,7 +96,8 @@ class LoginView extends StatelessWidget {
                       child: ElevatedButton(
                           style: ButtonStyle(backgroundColor:MaterialStateProperty.all(Colors.black) ),
                           onPressed:(){Navigator.of(context).push(MaterialPageRoute(builder: (context)=>  RegisterView()));},
-                          child: Text("REGISTER",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),)),)
+                          child: Text("REGISTER",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 21),)),)
+
 
 
                   ],
